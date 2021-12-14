@@ -7,24 +7,28 @@
 .container{
     height: 100vh;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .slider{
-    width: 80%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    height: 45%;    
     display: flex;
     justify-content: center;
 }
 
+.visualized{
+    width: 33%;
+    height: 45%;    
+}
+
 .big-image{
     position: relative;
-    width: 40%;
+    height: 100%;
     background-repeat: no-repeat;
     background: url(img/02.jpg);
-    background-size: cover;
+    background-size: cover;    
 }
 
 .text{
@@ -49,6 +53,6 @@
 }
 
 .small-images img{
-    width: 95px;
+    width: 93px;
 }
 
