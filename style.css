@@ -6,8 +6,12 @@
     margin-top: 50px;
 }
 
-#small-images > div{
+#small-images div{
     height: 20%;
+}
+
+#small-images div img{
+    opacity: 0.7;
 }
 
 img{
@@ -39,4 +43,29 @@ img{
     color: #fff;
     text-align: end;
 }
+
+.dm-pos{
+    position: relative;
+}
+
+.dm-arrow-up, .dm-arrow-down{
+    font-size: 45px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -5%);
+    cursor: pointer;
+    z-index: 5;
+    opacity: 0.8;
+}
+
+.dm-arrow-up{
+    top: 5%;
+}
+
+.dm-arrow-down{
+    bottom: 5%;
+}
+
+
+
 

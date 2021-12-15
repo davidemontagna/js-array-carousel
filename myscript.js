@@ -53,9 +53,10 @@ txtActive.classList.add('active');
 let itemsContent = '';
 
 for( let index=0; index < items.length; index++){
-    itemsContent += `<div>
+    itemsContent += `<div>                      
                         <img src="${items[index]}">
-                    </div>`;
+                    </div>
+                    `;
 }
 
 const smallImages = document.getElementById("small-images");
