@@ -10,7 +10,13 @@
     height: 20%;
 }
 
-#small-images div img{
+.dm-sm-opacity-on{
+    opacity: 1!important;
+    border: 2px solid #000;
+}
+
+.dm-sm-opacity-off{
+    height: 20%;
     opacity: 0.7;
 }
 
@@ -31,9 +37,6 @@ img{
     display: block;
 }
 
-.dm-big{
-    position: relative;
-}
 
 .dm-txt{
     position: absolute;
@@ -65,7 +68,6 @@ img{
 .dm-arrow-down{
     bottom: 5%;
 }
-
 
 
 
